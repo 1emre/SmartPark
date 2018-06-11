@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/place_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/park"
+    tools:context="com.emredmrbs99.smartpark.MainActivity">
+
+    <ImageButton
+        android:id="@+id/place1"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="28dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/bos"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/place3"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bos"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/place2"
+        android:layout_alignStart="@+id/place2" />
+
+    <ImageButton
+        android:id="@+id/place2"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="55dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/bos"
+        android:layout_below="@+id/place1"
+        android:layout_alignStart="@+id/place1" />
+</RelativeLayout>
